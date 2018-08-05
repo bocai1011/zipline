@@ -17,8 +17,8 @@ requests-file
 # scipy and pandas are required for statsmodels,
 # statsmodels in turn is required for some pandas packages
 scipy
-pandas==0.22
-pandas-datareader
+pandas==0.18
+pandas-datareader==0.2.1
 # Needed for parts of pandas.stats
 patsy
 statsmodels
