@@ -1,0 +1,82 @@
+# Incompatible with earlier PIP versions
+#pip>=7.1.0
+# bcolz fails to install if this is not in the build_requires.
+#setuptools>18.0
+
+# Logging
+Logbook
+
+# Scientific Libraries
+
+pytz
+numpy
+
+# for pandas-datareader
+requests-file
+
+# scipy and pandas are required for statsmodels,
+# statsmodels in turn is required for some pandas packages
+scipy
+pandas
+pandas-datareader
+# Needed for parts of pandas.stats
+patsy
+statsmodels
+
+python-dateutil==2.4.2
+six
+
+# For fetching remote data
+requests
+
+Cython
+
+# faster OrderedDict
+cyordereddict
+
+# faster array ops.
+bottleneck
+
+contextlib2
+
+# networkx requires decorator
+decorator
+
+# Graph algorithms used by zipline.pipeline
+networkx
+
+# NumericalExpression pipeline terms.
+numexpr
+
+# On disk storage format for pipeline data.
+bcolz
+
+# Command line interface helper
+click
+
+# FUNctional programming utilities
+toolz
+multipledispatch
+
+# for alembic
+MarkupSafe
+Mako
+# Asset writer and finder
+sqlalchemy
+# For asset db management
+alembic
+
+sortedcontainers==1.4.4
+# for intervaltree
+intervaltree
+
+# for caching
+lru-dict
+
+# For financial risk calculations
+empyrical
+
+tables
+
+# For trading calendars
+trading-calendars
