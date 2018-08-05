@@ -17,13 +17,13 @@ requests-file
 # scipy and pandas are required for statsmodels,
 # statsmodels in turn is required for some pandas packages
 scipy
-pandas
+pandas==0.22
 pandas-datareader
 # Needed for parts of pandas.stats
 patsy
 statsmodels
 
-python-dateutil==2.4.2
+python-dateutil
 six
 
 # For fetching remote data
